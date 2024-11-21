@@ -1,0 +1,138 @@
+.main-signin-component{
+    display: flex;
+    height: 97vh;
+    width: 100%;
+}
+.inner-signin-component{
+    margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  border: 3px solid grey;
+  display: flex;
+  align-items: center;
+  background: url(../assets/signin-background.avif);
+  background-size: cover;
+  
+}
+
+
+
+
+
+/*-----------signin form css-----------------------*/
+.signin-form-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 850px;
+    background-color: white;
+    
+    border: 2px solid grey;
+    margin-left: 120px;
+    padding: -10px;
+    box-shadow: 0 4px 5px rgba(4, 8 , 12 , 0.5);
+    }
+.signin-form-left{
+    height: 100%;
+    width: 50%;
+    
+}
+.signin-form-right{
+    height: 100%;
+    width: 50%;
+    padding: 0;
+}
+#sign-in-title{
+    margin-left: -320px;
+    margin-top: 100px;
+    text-align: left;
+}
+.lottie-class-signin{
+   margin-top: 60px;
+}
+#input{
+  background: none;
+  text-decoration: none;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 350px;
+  margin-top: 20px;
+}
+#input:focus{
+    outline: none;
+}
+#input-check{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -75px;
+}
+
+
+#login-btn{
+    height: 35px;
+    width: 350px;
+    background-color: rgb(0, 229, 255);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+#page-link-to-login{
+    margin-top: 40px;
+    margin: 0;
+    cursor: pointer;
+}
+p{
+    margin-left: 75px;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    margin: 10%;
+    text-align: center;
+  }
+  
+  .btn-hover {
+    width: 370px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+  
+    border-radius: 5px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+    outline: none;
+  }
+  
+  .btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+  

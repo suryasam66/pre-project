@@ -1,0 +1,67 @@
+#logo {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  font-style: normal;
+  color: white;
+  margin-left: 55px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border: 2px solid aqua;
+ padding-left: 8px;
+ padding-right: 6px;
+}
+
+#page-link{
+    color: white;
+   
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+#nav-component{
+    height: 50px;
+    width: 250px;
+    margin-left: -60px;
+}
+
+#nav-component:hover{
+    height: 50px;
+    width: 250px;
+    background-color: aqua;
+    color: rgb(0, 0, 92);
+    
+}
+#nav-component:hover #icon,
+#nav-component:hover #page-link {
+    color: rgb(0, 0, 92);
+}
+span{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#icon{
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin-left: 55px;
+}
+.bottom-left{
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 96px;
+}
+#contact-icon{
+    color: white;
+    height: 15px;
+    width: 15px;
+}
+#contact-icon:hover{
+    color: aqua;
+}
+

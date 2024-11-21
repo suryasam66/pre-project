@@ -1,0 +1,20 @@
+.outer-div{
+    height: 98vh;
+    max-width: fit-content;
+    display: flex;
+}
+
+.inner-right-div{
+    height: 97vh;
+    width:1100px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right: 3px solid grey;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+}
+.inner-right-div-content{
+    height: 97vh;
+    width:1100px;
+}

@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "9f62",
+      "name": "SURYAKANTA SAMANTA",
+      "subject": "phy",
+      "age": "23",
+      "gender": "male",
+      "checkbox": {
+        "bengali": true,
+        "hindi": false,
+        "english": false
+      }
+    },
+    {
+      "id": "db6f",
+      "name": "prajna",
+      "subject": "current affairs",
+      "age": "23",
+      "gender": "female",
+      "checkbox": {
+        "bengali": true,
+        "hindi": false,
+        "english": false
+      }
+    },
+    {
+      "id": "d4c1",
+      "name": "sudhir",
+      "subject": "Geography",
+      "age": "99",
+      "gender": "male",
+      "checkbox": {
+        "bengali": true,
+        "hindi": false,
+        "english": false
+      }
+    },
+    {
+      "id": "2c81",
+      "name": "ggggg",
+      "subject": "jjjjjj",
+      "age": "991",
+      "gender": "female",
+      "checkbox": {
+        "bengali": false,
+        "hindi": false,
+        "english": true
+      }
+    },
+    {
+      "id": "1c9b",
+      "name": "myApi",
+      "subject": "current affairs",
+      "age": "11",
+      "gender": "male",
+      "checkbox": {
+        "bengali": false,
+        "hindi": false,
+        "english": true
+      }
+    }
+  ]
+}
